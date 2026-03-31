@@ -13,9 +13,7 @@
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-
-
-  <link href="../css/tyyli.css" rel="stylesheet">
+  <link href="css/tyyli.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +36,6 @@
 
   <div class="top-navigation">
     <button class="w3-button w3-transparent w3-jumbo left-icon" onclick="openLeftMenu()">&#9776;</button>
-
     <button class="w3-button w3-transparent w3-jumbo right-icon" onclick="openRightMenu()">&#9776;</button>
   </div>
 
@@ -46,7 +43,6 @@
     function openLeftMenu() {
       const leftMenu = document.getElementById("leftMenu");
       leftMenu.style.display = "block";
-  
       leftMenu.addEventListener("mouseleave", closeLeftMenu); 
     }
   
@@ -57,7 +53,6 @@
     function openRightMenu() {
       const rightMenu = document.getElementById("rightMenu");
       rightMenu.style.display = "block";
-  
       rightMenu.addEventListener("mouseleave", closeRightMenu); 
     }
   
@@ -73,32 +68,25 @@
   <div class="header">
     <h1> I AM <br> ERIC W SETÄLÄ </h1>
     <div class="image-container">
-      <img src="../images/parsta.jpg" id="parsta" alt="Pärstä kuva" width="700" height="900">
+      <img src="images/parsta.jpg" id="parsta" alt="Pärstä kuva" width="700" height="900">
+    </div>
   </div>
-  </div>
-  
   
 <main> 
   <section id="osa1.5">
     <h2>About me</h2>
-
     <br>
-
     <h2>Greetings and welcome!</h2>
-
     <br>
-
-    <p>I’m Eric Walter Setälä &shy;
-      a 33-year-old student with a bold vision for the future. I’ve embarked on an exciting new journey as a first-year
+    <p>I'm Eric Walter Setälä &shy;
+      a 33-year-old student with a bold vision for the future. I've embarked on an exciting new journey as a first-year
       student at Haaga-Helia University of Applied Sciences, where my focus is on mastering Business IT and IT
       infrastructure.
-      With this foundation, I’m set on becoming a key player in shaping the technological landscape of tomorrow.
+      With this foundation, I'm set on becoming a key player in shaping the technological landscape of tomorrow.
     </p>
 
     <h2>A Proven Track Record</h2>
-
     <br>
-
     <p>Before diving into the world of IT, I spent over 6.5 years working as a practical nurse in child welfare services
       at a foster home.
       This role shaped my ability to provide care in high-pressure environments, develop strong interpersonal skills,
@@ -111,35 +99,29 @@
     </p>
 
     <h2>Ready for New Challenges</h2>
-
     <br>
-
     <p>After several years of dedication to others, I recognized my passion for technology and the need to push myself
       in a new direction.
-      That’s why I chose to study at Haaga-Helia, where I’m now delving into the cutting-edge world of Business IT.
+      That's why I chose to study at Haaga-Helia, where I'm now delving into the cutting-edge world of Business IT.
       I believe in the transformative power of technology and am excited about creating solutions that make businesses
       more efficient, innovative, and impactful.
     </p>
 
     <h2>Perspective Through Multilingual Skills</h2>
-
     <br>
-
     <p>One of my strongest assets is my ability to communicate across cultures. Fluent in Finnish, English, and Russian,
       I am well-equipped to navigate international business environments.
       Whether working with global teams, understanding diverse markets, or building connections with clients from
       different cultural backgrounds, my multilingual skills give me a competitive edge.
     </p>
 
-    <h2>Let’s Connect</h2>
-
+    <h2>Let's Connect</h2>
     <br>
-
     <p>With my unique blend of practical experience as a practical nurse, combined with my current studies in Business
-      IT, I’m prepared for new challenges and opportunities. I am always excited to connect with professionals who share
+      IT, I'm prepared for new challenges and opportunities. I am always excited to connect with professionals who share
       my passion for innovation and growth.
-      <br>Feel free to take a look at my CV, and don’t hesitate to reach out if you'd like to explore potential
-      collaborations. I’m looking forward to hearing from you!
+      <br>Feel free to take a look at my CV, and don't hesitate to reach out if you'd like to explore potential
+      collaborations. I'm looking forward to hearing from you!
     </p>
   </section>
 
@@ -147,40 +129,29 @@
     
     <div class="button-container">
       <button class="button" onclick="downloadCV()">
-      <img src="../images/icons8-download-16.png" alt="DownloadIcon">
+      <img src="images/icons8-download-16.png" alt="DownloadIcon">
       <span>Download</span>
       </button>
-      </div>
-
+    </div>
 
     <script>
       function downloadCV() {
-        
         var link = document.createElement('a');
-
         link.href = 'https://tinyurl.com/pm2p3uss';
-
         link.download = 'CV.pdf';
-
         link.target = '_blank';
-
         link.click();
       }
     </script>
-
-
 
 <section id="osa2">
   <div class="osa2">
       <h2> My Personality & Skills </h2>
       <div class="tolpat"></div>
     <div class="pttolpat">
-  
 
         <div class="bar">
-            <div class="info">
-                <span>Kindness</span>
-            </div>
+            <div class="info"><span>Kindness</span></div>
             <div class="progress-bar">
                 <span class="kindness"></span>
                 <span class="percentage">95%</span>
@@ -188,9 +159,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Motivation</span>
-            </div>
+            <div class="info"><span>Motivation</span></div>
             <div class="progress-bar">
                 <span class="motivation"></span>
                 <span class="percentage">99%</span>
@@ -198,9 +167,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Teamwork skills</span>
-            </div>
+            <div class="info"><span>Teamwork skills</span></div>
             <div class="progress-bar">
                 <span class="teamwork"></span>
                 <span class="percentage">95%</span>
@@ -208,9 +175,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Communication skills</span>
-            </div>
+            <div class="info"><span>Communication skills</span></div>
             <div class="progress-bar">
                 <span class="communication"></span>
                 <span class="percentage">90%</span>
@@ -218,9 +183,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Finnish Language</span>
-            </div>
+            <div class="info"><span>Finnish Language</span></div>
             <div class="progress-bar">
                 <span class="finnish"></span>
                 <span class="percentage">100%</span>
@@ -228,9 +191,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>English Language</span>
-            </div>
+            <div class="info"><span>English Language</span></div>
             <div class="progress-bar">
                 <span class="english"></span>
                 <span class="percentage">95%</span>
@@ -238,9 +199,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Russian Language</span>
-            </div>
+            <div class="info"><span>Russian Language</span></div>
             <div class="progress-bar">
                 <span class="russian"></span>
                 <span class="percentage">85%</span>
@@ -248,9 +207,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Dad jokes mentality</span>
-            </div>
+            <div class="info"><span>Dad jokes mentality</span></div>
             <div class="progress-bar">
                 <span class="kjehrah-jokes"></span>
                 <span class="percentage">75%</span>
@@ -258,9 +215,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Phone Browsing During Work</span>
-            </div>
+            <div class="info"><span>Phone Browsing During Work</span></div>
             <div class="progress-bar">
                 <span class="phone-browsing"></span>
                 <span class="percentage">2%</span>
@@ -268,9 +223,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>HTML</span>
-            </div>
+            <div class="info"><span>HTML</span></div>
             <div class="progress-bar">
                 <span class="html"></span>
                 <span class="percentage">45%</span>
@@ -278,9 +231,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Java</span>
-            </div>
+            <div class="info"><span>Java</span></div>
             <div class="progress-bar">
                 <span class="java"></span>
                 <span class="percentage">40%</span>
@@ -288,9 +239,7 @@
         </div>
 
         <div class="bar">
-            <div class="info">
-                <span>Python</span>
-            </div>
+            <div class="info"><span>Python</span></div>
             <div class="progress-bar">
                 <span class="python"></span>
                 <span class="percentage">20%</span>
@@ -302,9 +251,8 @@
 The skill percentages shown above MAY, in SOME cases, be for educational and entertainment purposes only and should not be interpreted as exact or definitive measures of capability. 
 Variability in performance may occur based on external factors such as project context, workload, or caffeine levels. 
 Figures may not be intended to be used for formal assessments, or any legally binding evaluations. 
-Hiring decissions based on the information provided above and beyond is strongly encouraged, as it reflects a well-rounded evaluation of the candidate’s qualifications.
+Hiring decissions based on the information provided above and beyond is strongly encouraged, as it reflects a well-rounded evaluation of the candidate's qualifications.
         </p>
-
     </div>
 </section>
 
@@ -313,26 +261,24 @@ Hiring decissions based on the information provided above and beyond is strongly
       <h4> Contact Me </h4>
       
       <a href="https://www.instagram.com/ericws/" target="_blank">
-        <img class="logo" src="../images/instagram.png" alt="Instagram">
-    </a>
-    
-    <a href="https://www.facebook.com/eric.setala" target="_blank">
-        <img class="logo" src="../images/facebook.png" alt="Facebook">
-    </a>
-    
-    <a href="https://www.linkedin.com/in/eric-setälä-setälä-34795b330/" target="_blank">
-        <img class="logo" src="../images/linkedin.png" alt="LinkedIn">
-    </a>
-    
-    <a href="mailto:eric.setala@gmail.com?subject=Otsikko%20tässä&body=Hei,%0A%0A" target="_blank">
-        <img class="logo" src="../images/email.png" alt="Email">
-    </a>
+        <img class="logo" src="images/instagram.png" alt="Instagram">
+      </a>
+      
+      <a href="https://www.facebook.com/eric.setala" target="_blank">
+        <img class="logo" src="images/facebook.png" alt="Facebook">
+      </a>
+      
+      <a href="https://www.linkedin.com/in/eric-setälä-setälä-34795b330/" target="_blank">
+        <img class="logo" src="images/linkedin.png" alt="LinkedIn">
+      </a>
+      
+      <a href="mailto:eric.setala@gmail.com?subject=Otsikko%20tässä&body=Hei,%0A%0A" target="_blank">
+        <img class="logo" src="images/email.png" alt="Email">
+      </a>
 
-    <h5> "Big things have small beginnings"-Prometheus </h5>
-
+      <h5> "Big things have small beginnings"-Prometheus </h5>
   </div>
 </section>
-              
 
          <pre>
           
@@ -377,4 +323,3 @@ Hiring decissions based on the information provided above and beyond is strongly
 </main>
 </body>
 </html>
-
